@@ -1,0 +1,44 @@
+.section_dados{
+	display: grid;
+	grid-template-columns: 1fr 200px;
+	grid-gap: 5px;
+}
+.dados-figure{
+	#width: 40%;
+}
+.h3-dados{
+	font-size: 14px;
+	font-family: inherit;
+	font-weight: 200;
+	color: #fff;
+	padding: 10px;
+	background: #ff0303;
+}
+.dado-nav{
+	display: flex;
+	flex-wrap: wrap;
+}
+.dados-ul{
+	flex: 1 1 200px;
+}
+.section_aluno_li{
+	padding: 10px;
+	font-size: 12px;
+	border-bottom:1px solid #fff;
+	background-color: #000;
+	color: #fff;
+}
+.span_left{
+	color: #ff0303;
+}
+.foto-dados{
+	width: 100%;
+}
+.figcaption{
+	font-size: 14px;
+	color: #999;
+}
+.figcaption-erro{
+	font-size: 12px;
+	color: red;
+}
